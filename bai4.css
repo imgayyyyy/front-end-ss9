@@ -5,15 +5,37 @@
 }
 
 .all{
-
-    color: white;
     display: flex;
+    flex-direction: column;
+    gap : 5px;
+    color: white;
+    
 }
 .header{
-
+    display: flex;
+    flex-wrap: wrap;
     background-color: blue;
-    flex: 1;
+    width: 1500px;
     align-items: center;
-    justify-content: center;
+    
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    gap :5px;
+}
+.sidebar{
+    flex: 1;
+    background-color: green;
+}
+.content{
+    flex:2;
+    background-color: red;
 }
 
+.footer{
+    display: flex;
+    background-color: blueviolet;
+}
